@@ -57,7 +57,7 @@ module Just
               self.errors[minute_attribute].each{ |e| self.errors[field_name] << e }
               self.errors[date_attribute].each{ |e| self.errors[field_name] << e }
               
-              self.errors[field_name].uniq!
+              self.errors[field_name].uniq
             end          
 
 
